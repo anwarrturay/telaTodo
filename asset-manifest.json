@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/telaTodo/static/css/main.8df8ca44.css",
+    "main.js": "/telaTodo/static/js/main.dbf29b6e.js",
+    "index.html": "/telaTodo/index.html",
+    "main.8df8ca44.css.map": "/telaTodo/static/css/main.8df8ca44.css.map",
+    "main.dbf29b6e.js.map": "/telaTodo/static/js/main.dbf29b6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8df8ca44.css",
+    "static/js/main.dbf29b6e.js"
+  ]
+}

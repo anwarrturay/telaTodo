@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E0E7E9;
+  font-family: Montserrat, sans-serif;
+}
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-group input, button{
+  margin: .7rem;
+}
+.form-group button{
+  font-size: 1.2em;
+  padding: .2rem 3rem;
+
+}
+.item-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+.list-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 2);
+}
+.list-group .contents{
+  margin: 1rem;
+  width: 200px;
+}
+.contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contents div{
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .id{
+  width: 20px;
+}
+.contents .text{
+  width: 180px;
+}
+.buttons{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.editView{
+  border: 1px solid grey;
+}
